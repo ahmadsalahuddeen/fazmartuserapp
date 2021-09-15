@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "242742011980",
+    "firebase_url": "https://faz-mart-user-app.firebaseio.com",
+    "project_id": "faz-mart-user-app",
+    "storage_bucket": "faz-mart-user-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242742011980:android:8acef9c66d3adceaa02ce9",
+        "android_client_info": {
+          "package_name": "com.fazmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242742011980-84dmfpq06f3bdqhqe46i6mabdlm3rlv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fazmart",
+            "certificate_hash": "c86de189bc52d03e7f05f6fdea565d9f59173100"
+          }
+        },
+        {
+          "client_id": "242742011980-83buq9obahar0il7nkdntd55v2k3ncvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVcAz1Zr7roHG0gu_brag6iS0X0P_VOd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242742011980:android:f28157ea3533f9e4a02ce9",
+        "android_client_info": {
+          "package_name": "com.fazmart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242742011980-i01viao6isi3s335hsmivi2sba5j1lv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fazmart.app",
+            "certificate_hash": "ee19766ef11c0c57dfeb7f6244acc3719323d08f"
+          }
+        },
+        {
+          "client_id": "242742011980-83buq9obahar0il7nkdntd55v2k3ncvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVcAz1Zr7roHG0gu_brag6iS0X0P_VOd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242742011980:android:6a702e644f3b7ef9a02ce9",
+        "android_client_info": {
+          "package_name": "com.fazmart.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242742011980-83buq9obahar0il7nkdntd55v2k3ncvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVcAz1Zr7roHG0gu_brag6iS0X0P_VOd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242742011980:android:7e235d330f6799bea02ce9",
+        "android_client_info": {
+          "package_name": "com.fazmart.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242742011980-83buq9obahar0il7nkdntd55v2k3ncvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVcAz1Zr7roHG0gu_brag6iS0X0P_VOd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
