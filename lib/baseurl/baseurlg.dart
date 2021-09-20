@@ -100,4 +100,4 @@ String successUrl = '$apibaseUrl'+'payment_success';
 String failedUrl = '$apibaseUrl'+'payment_failed';
 
 
-var appname = 'Go Grocer';
+var appname = 'Faz Mart';

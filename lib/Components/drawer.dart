@@ -190,11 +190,11 @@ Widget buildDrawer(BuildContext context, userName, bool islogin,{VoidCallback on
                         child: buildListTile(
                             context, Icons.chat, locale.helpCentre, ContactUsPage(),0),
                       ),
-                      Visibility(
-                        visible: islogin,
-                        child: buildListTile(
-                            context, Icons.money, locale.inviteNEarn.toUpperCase(), RefferScreen(),0),
-                      ),
+                      // Visibility(
+                      //   visible: islogin,
+                      //   child: buildListTile(
+                      //       context, Icons.money, locale.inviteNEarn.toUpperCase(), RefferScreen(),0),
+                      // ),
                       buildListTile(
                           context, Icons.language, locale.language, ChooseLanguage(),0),
                       ListTile(

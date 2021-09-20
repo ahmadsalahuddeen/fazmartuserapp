@@ -1572,13 +1572,17 @@ class NewHomeView1State extends State<NewHomeView1> {
                   shape: CircleBorder(),
                   children: [
                     SpeedDialChild(
+                      label: 'Share the App',
                         child: Icon(Icons.share, color: Colors.white),
                         backgroundColor: kMainColor,
-                        labelStyle: TextStyle(fontSize: 18.0),
+
                         onTap: () {
                           share(locale.shareheading, locale.sharetext, signModel);
                         }),
                     SpeedDialChild(
+                      label: 'Rate the app',
+
+
                       child: Icon(Icons.rate_review, color: Colors.white),
                       backgroundColor: kMainColor,
                       onTap: () {
@@ -1586,6 +1590,7 @@ class NewHomeView1State extends State<NewHomeView1> {
                       },
                     ),
                     SpeedDialChild(
+                      label: 'Call',
                       child: Icon(Icons.call, color: Colors.white),
                       backgroundColor: kMainColor,
                       onTap: () {
@@ -1593,6 +1598,7 @@ class NewHomeView1State extends State<NewHomeView1> {
                       },
                     ),
                     SpeedDialChild(
+                      label: 'Whatsapp',
                       child: ImageIcon(
                           AssetImage(
                             'assets/whatsapp.png',
@@ -1619,17 +1625,17 @@ class NewHomeView1State extends State<NewHomeView1> {
     Platform.isIOS ? modelApp.iosAppLink : modelApp.androidAppLink;
     await FlutterShare.share(
         title: appname,
-        text:
-        '${modelApp.refertext}\n$sharetext ${prefs.getString('refferal_code')}.',
-        linkUrl: '$applink',
-        chooserTitle: '$share ${appname}');
+        text: "Kasaragod's No.1 Grocery Delivery app | Download Now",
+        //'${modelApp.refertext}\n$sharetext ${prefs.getString('refferal_code')}.',
+        linkUrl: 'https://play.google.com/store/apps/details?id=com.fazmart&hl=en_IN&gl=US',
+        chooserTitle: '');
   }
 
   Future<void> launchUrl(AppInfoModel modelApp) async {
     var applink =
     Platform.isIOS ? modelApp.iosAppLink : modelApp.androidAppLink;
-    if (await canLaunch(applink)) {
-      await launch(applink);
+    if (await canLaunch('https://play.google.com/store/apps/details?id=com.fazmart&hl=en_IN&gl=US')) {
+      await launch('https://play.google.com/store/apps/details?id=com.fazmart&hl=en_IN&gl=US');
     } else {
       throw 'Could not launch $applink';
     }
@@ -1637,12 +1643,12 @@ class NewHomeView1State extends State<NewHomeView1> {
 
 
   void callNumberStore(store_number) async {
-    await launch('tel:$store_number');
+    await launch('tel:+919645615184');
   }
 
   void openWhatsApp(
       store_number, String nowhatsappinstalled, BuildContext context) async {
-    String urlk = "https://wa.me/$store_number";
+    String urlk = "https://wa.me/+919645615184";
     var dd = await launch(urlk);
     print(dd);
   }

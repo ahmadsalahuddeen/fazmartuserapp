@@ -85,10 +85,12 @@ class TNCPageState extends State<TNCPage> {
           physics: BouncingScrollPhysics(),
           children: [
             Image.asset(
-              'assets/icon.png',
-              scale: 2.5,
-              height: 150,
-            ),
+                
+                'assets/icon.png',
+                scale: 2.5,
+                height: 150,
+              ),
+            
             // Text(
             //   (title!=null)?'${title}':'',
             //   style: TextStyle(
