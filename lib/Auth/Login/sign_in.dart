@@ -188,7 +188,7 @@ class _SignInState extends State<SignIn> {
                       Padding(
                         padding: const EdgeInsets.only(
                             top: 15, bottom: 5, right: 20, left: 20),
-                        child: Text(locale.mobilenuml,
+                        child: Text(" ",
                             textAlign: TextAlign.start,
                             style: TextStyle(color: kMainTextColor, fontSize: 15)),
                       ),
@@ -372,41 +372,41 @@ class _SignInState extends State<SignIn> {
                               minWidth: 150,
                               height: 40,
                             ),
-                            MaterialButton(
-                              onPressed: () {
-                                if (!showProgress) {
-                                  setState(() {
-                                    showProgress = true;
-                                  });
-                                  _login(context);
-                                }
-                              },
-                              child: Row(
-                                children: [
-                                  Image.asset(
-                                    'assets/fb.png',
-                                    height: 20,
-                                    width: 20,
-                                  ),
-                                  SizedBox(
-                                    width: 10,
-                                  ),
-                                  Text(locale.facebookl,
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          color: Colors.black54,
-                                          fontSize: 15)),
-                                ],
-                                mainAxisAlignment: MainAxisAlignment.center,
-                              ),
-                              shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(30)),
-                              splashColor: kWhiteColor,
-                              color: kWhiteColor,
-                              highlightColor: kMainColor,
-                              minWidth: 150,
-                              height: 40,
-                            )
+                            // MaterialButton(
+                            //   onPressed: () {
+                            //     if (!showProgress) {
+                            //       setState(() {
+                            //         showProgress = true;
+                            //       });
+                            //       _login(context);
+                            //     }
+                            //   },
+                            //   child: Row(
+                            //     children: [
+                            //       Image.asset(
+                            //         'assets/fb.png',
+                            //         height: 20,
+                            //         width: 20,
+                            //       ),
+                            //       SizedBox(
+                            //         width: 10,
+                            //       ),
+                            //       Text(locale.facebookl,
+                            //           style: TextStyle(
+                            //               fontWeight: FontWeight.bold,
+                            //               color: Colors.black54,
+                            //               fontSize: 15)),
+                            //     ],
+                            //     mainAxisAlignment: MainAxisAlignment.center,
+                            //   ),
+                            //   shape: RoundedRectangleBorder(
+                            //       borderRadius: BorderRadius.circular(30)),
+                            //   splashColor: kWhiteColor,
+                            //   color: kWhiteColor,
+                            //   highlightColor: kMainColor,
+                            //   minWidth: 150,
+                            //   height: 40,
+                            // )
                           ],
                         ),
                       ),

@@ -11,7 +11,7 @@ import FirebaseAuth
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     FirebaseApp.configure()
-        GMSServices.provideAPIKey("AIzaSyDRtVPKb53QDJMQBS5YgUAZZpfPh42dOwk")
+        GMSServices.provideAPIKey("AIzaSyB5H9ZiImw5B6zL3YBQRlCk4j7meb4uuQg")
         GeneratedPluginRegistrant.register(with: self)
 //    UNUserNotificationCenter.current().delegate = self
     Messaging.messaging().isAutoInitEnabled = true

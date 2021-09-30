@@ -100,7 +100,7 @@ class NewCategoryScreenState extends State<NewCategoryScreen> {
                         crossAxisSpacing: 20,
                         childAspectRatio: 0.65,
                       ),
-                      itemCount: listModel.data.length,
+                      itemCount: listModel.data.reversed.length,
                       shrinkWrap: true,
                       primary: false,
                       // physics: NeverScrollableScrollPhysics(),
