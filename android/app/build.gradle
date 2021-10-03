@@ -42,7 +42,7 @@ android {
         applicationId "com.fazmart"
         minSdkVersion 20
         targetSdkVersion 30
-        versionCode 5
+        versionCode 6
         versionName "0.0.3"
         multiDexEnabled true
         dexOptions {

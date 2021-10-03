@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "242742011980-ta2j18qd49fvguv6pa4ivqt2e52lf5kk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fazmart",
+            "certificate_hash": "44e4fd7c40dfa1da218c82d6646ae9df3d38e548"
+          }
+        },
+        {
           "client_id": "242742011980-83buq9obahar0il7nkdntd55v2k3ncvf.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -38,6 +46,13 @@
             {
               "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "242742011980-lvqn5ictl48qvrpsah3t97fq0o8p665v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fazmart"
+              }
             }
           ]
         }
@@ -75,6 +90,13 @@
             {
               "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "242742011980-lvqn5ictl48qvrpsah3t97fq0o8p665v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fazmart"
+              }
             }
           ]
         }
@@ -104,6 +126,13 @@
             {
               "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "242742011980-lvqn5ictl48qvrpsah3t97fq0o8p665v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fazmart"
+              }
             }
           ]
         }
@@ -133,6 +162,13 @@
             {
               "client_id": "242742011980-6p3dbp7makbtg6lhn8cir9grgq74phu2.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "242742011980-lvqn5ictl48qvrpsah3t97fq0o8p665v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fazmart"
+              }
             }
           ]
         }
